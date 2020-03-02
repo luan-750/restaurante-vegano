@@ -1,0 +1,15 @@
+nav img {
+  width: auto;
+  height: 100px;
+}
+nav ul li {
+  font-weight: bold;
+}
+h1 {
+  opacity: 0;
+}
+footer {
+  text-align: center;
+  color: green;
+  background-color: grey;
+}
