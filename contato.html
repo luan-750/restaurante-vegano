@@ -56,7 +56,7 @@
               <a class="dropdown-item" href="aperitivos.html">Aperitivos</a>
               <a class="dropdown-item" href="pratos.html">Pratos principais</a>
               <a class="dropdown-item" href="sobremesas.html">Sobremesas</a>
-              <a class="dropdown-item" href="bebidas.html">Bebidas</a>
+              
             </div>
           </li>
           <li class="nav-item">
@@ -73,7 +73,55 @@
     <header>
       <h1>Bardana</h1>
     </header>
-    <main></main>
+    <main> 
+      <div class="container-fluid">
+      <h2>Tire suas dúvidas e fale conosco</h2>
+      <!-- Início do container fluid -->
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="Nome">Nome</label>
+            <input
+              type="text"
+              class="form-control"
+              id="Nome"
+              placeholder="Nome Completo"
+              required
+            />
+          </div>
+          <div class="form-group col-md-4">
+            <label for="CPF">Tel:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="CPF"
+              placeholder="(XX) XXXXX-XXXX"
+              required
+            />
+          </div>
+        </div>  
+
+        <div class="form-row">
+          <div class="form-group col-md-8">
+            <label for="Email">E-mail</label>
+            <input
+              type="email"
+              class="form-control"
+              id="Email"
+              placeholder="email@dominio.com"
+              required
+              />
+            </div>
+        </div>
+            <div class="form-group">
+              <label for="Observacao">Observações, sugestões, dúvidas e reclamações</label>
+              <textarea class="form-control"></textarea>
+            </div>
+  
+            <button type="submit" class="btn btn-danger">Enviar</button>
+          </form>
+<!-- Fim do container fluid -->
+    </main>
 
     <!-- ##### Início do footer ##### -->
 

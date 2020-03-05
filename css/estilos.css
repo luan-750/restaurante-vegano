@@ -3,7 +3,6 @@ nav img {
   height: 100px;
 }
 nav {
-  /* font-weight: bold; */
 }
 
 h1 {
@@ -35,11 +34,12 @@ h2 {
   padding: 35px;
   opacity: 0.9;
   border-radius: 25%;
+  transition: ease 0.9s;
 }
 #imghome img:hover {
   opacity: 1;
   cursor: pointer;
-  transition: ease 0.9s;
+
   transform: scale(1.2);
 }
 #home1 {
@@ -63,10 +63,23 @@ h2 {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 #carousel img {
-  height: 300px;
+  height: 500px;
   width: 300px;
 }
-#carousel {
-  margin-left: 400px;
-  margin-bottom: 40px;
+#container {
+  text-align: center;
+}
+#linha {
+  margin-top: 50px;
+  text-align: center;
+}
+#uavp {
+  text-align: center;
+}
+#apimg {
+  width: 728px;
+  height: 500px;
+}
+#card {
+  margin: 0 auto;
 }
